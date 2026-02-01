@@ -242,7 +242,6 @@ footer {
 
 /* 8. MEDIA QUERIES */
 
-/* Tablet (Up to 992px) */
 @media (min-width: 769px) and (max-width: 1023px) {
     header { flex-direction: column; gap: 15px; }
     .nav-links { gap: 10px; font-size: 0.9rem; flex-wrap: wrap; justify-content: center; }
@@ -294,6 +293,5 @@ footer {
     .hero { 
         background-image: url('../images/hero-desktop.jpg'); 
         background-attachment: fixed;
-}
-
+    }
 }
